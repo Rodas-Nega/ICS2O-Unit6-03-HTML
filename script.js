@@ -1,9 +1,9 @@
-'use strict';
+'use strict'
 
 document.getElementById('age').addEventListener('click', movieAgeRating)
 
 function movieAgeRating () {
-  const rating = document.getElementById('age').value;
+  const rating = document.getElementById('age').value
   if (rating >= 17) {
     alert('You can watch R-rated movies.')
   } else if (rating >= 13) {
